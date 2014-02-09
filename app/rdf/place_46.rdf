@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs = "http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf = "http://xmlns.com/foaf/0.1/"
+    xmlns:v ="http://www.w3.org/2006/vcard/ns#"
+    xmlns:dc = "http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms = "http://purl.org/dc/terms/"
+    xmlns:geo = "http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:owl = "http://www.w3.org/2002/07/owl#"
+    xmlns:schema= "http://schema.org/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:place = "http://fp.yafjp.org/terms/place#"
+    >
+    <place:Place rdf:about="http://yan.yafjp.org/place-info/place_46">
+                <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/横浜美術館" />
+                <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+        <rdf:type rdf:resource="http://schema.org/Place"/>
+        <rdfs:label xml:lang="ja">横浜美術館</rdfs:label>
+                <rdfs:label xml:lang="ja-hrkt">よこはまびじゅつかん</rdfs:label>
+        
+        <!-- dc section -->
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-15T10:23:01+09:00</dcterms:modified>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-02T18:37:50+09:00</dcterms:created>
+                <dc:title xml:lang="ja">横浜美術館</dc:title>
+                <dc:title xml:lang="ja-hrkt">よこはまびじゅつかん</dc:title>
+                <dcterms:abstract xml:lang="ja"></dcterms:abstract>
+        <dc:description xml:lang="ja"></dc:description>
+        <!-- dc section -->
+
+        <!-- place section -->
+                        <place:hasPart rdf:resource="http://yan.yafjp.org/place-info/place_50" />
+                            <place:hasPart rdf:resource="http://yan.yafjp.org/place-info/place_51" />
+                            <place:hasPart rdf:resource="http://yan.yafjp.org/place-info/place_52" />
+                            <place:hasPart rdf:resource="http://yan.yafjp.org/place-info/place_47" />
+                            <place:hasPart rdf:resource="http://yan.yafjp.org/place-info/place_48" />
+                            <place:hasPart rdf:resource="http://yan.yafjp.org/place-info/place_49" />
+                                                    <geo:lat>35.457327</geo:lat>
+                        <geo:long>139.630448</geo:long>
+                        <place:contact>
+            <foaf:Agent>
+                <foaf:name xml:lang="ja">横浜美術館</foaf:name>
+                                <foaf:phone>045-221-0300</foaf:phone>
+                                                <foaf:homepage rdf:resource="http://www.yaf.or.jp/yma/" />
+                            </foaf:Agent>
+        </place:contact>
+                <!-- end place section -->
+
+        <!-- skos section -->
+        <skos:prefLabel xml:lang="ja">横浜美術館</skos:prefLabel>
+                <skos:prefLabel xml:lang="ja-hrkt">よこはまびじゅつかん</skos:prefLabel>
+                                                        <skos:narrower rdf:resource="http://yan.yafjp.org/place-info/place_50" />
+                                <skos:narrower rdf:resource="http://yan.yafjp.org/place-info/place_51" />
+                                <skos:narrower rdf:resource="http://yan.yafjp.org/place-info/place_52" />
+                                <skos:narrower rdf:resource="http://yan.yafjp.org/place-info/place_47" />
+                                <skos:narrower rdf:resource="http://yan.yafjp.org/place-info/place_48" />
+                                <skos:narrower rdf:resource="http://yan.yafjp.org/place-info/place_49" />
+                        <!-- end skos section -->
+
+        <!-- vCard section -->
+        <v:fn>横浜美術館</v:fn>
+                <v:tel>
+            <rdf:Description>
+                <rdf:value>045-221-0300</rdf:value>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home"/>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+            </rdf:Description>
+        </v:tel>
+                        <v:adr>
+            <rdf:Description>
+                <v:locality>横浜市西区みなとみらい3-4-1</v:locality>
+                <v:country-name>日本</v:country-name>
+                <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home"/>
+            </rdf:Description>
+        </v:adr>
+                <!-- end vCard section -->
+
+        <!-- schema.org section -->
+        <schema:name>横浜美術館</schema:name>
+        <schema:description></schema:description>
+                                <schema:telephone>045-221-0300</schema:telephone>
+                        <schema:address>横浜市西区みなとみらい3-4-1</schema:address>
+                        <schema:geo>
+            <schema:GeoCoordinates>
+                <schema:latitude>35.457327</schema:latitude>
+                <schema:latitude>139.630448</schema:latitude>
+            </schema:GeoCoordinates>
+        </schema:geo>
+                        <schema:url>http://www.yaf.or.jp/yma/</schema:url>
+                <!-- end schema.org section -->
+
+    </place:Place>
+</rdf:RDF>
